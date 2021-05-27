@@ -2,7 +2,7 @@
 
 /**
  * Compilation command
- *    gcc -Wall -std=c99 -lm -o classifier classifier.c knn.c
+ *    gcc -Wall -std=c99 -o classifier classifier.c knn.c -lm
  *
  * Decompress dataset into individual images:
  *    tar xvzf datasets.tgz
@@ -13,11 +13,6 @@
  * Running full evaulation with all images, K = 7: (Will take a while)
  *    ./classifier 7 lists/training_full.txt lists/testing_full.txt
  */
-
-/*****************************************************************************/
-/* Do not add anything outside the main function here. Any core logic other  */
-/* than what is described below should go into `knn.c`. You've been warned!  */
-/*****************************************************************************/
 
 /**
  * main() takes in 3 command line arguments:
