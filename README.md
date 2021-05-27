@@ -7,4 +7,4 @@ $ ./classifier 1 lists/training_1k.txt lists/testing_1k.txt
 817
 ```
 
-81.7% accuracy.
+81.7% accuracy
